@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vexelose Legal Documents</title>
     <style>
+        /* Общие стили */
         body {
             font-family: "Inter", Arial, sans-serif;
-            background-color: #fafafa;
-            color: #888;
+            background-color: #121212;
+            color: #eeeeee;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -17,25 +18,41 @@
             margin: 0;
             padding: 20px;
         }
+
         h1 {
-            font-size: 2rem;
-            margin-bottom: 40px;
+            font-size: 2.2rem;
+            margin-bottom: 50px;
             text-align: center;
+            color: #ffffff;
         }
+
         a {
             display: block;
             margin: 15px 0;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             text-decoration: none;
-            color: #0077cc;
-            padding: 10px 20px;
-            border: 1px solid #0077cc;
-            border-radius: 8px;
-            transition: all 0.2s ease;
+            color: #ffffff;
+            background-color: #1e1e1e;
+            border: 2px solid #00bfff;
+            border-radius: 12px;
+            padding: 12px 25px;
+            width: 250px;
+            text-align: center;
+            transition: all 0.3s ease;
         }
+
         a:hover {
-            background-color: #0077cc;
-            color: #fff;
+            background-color: #00bfff;
+            color: #121212;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 191, 255, 0.4);
+        }
+
+        @media (max-width: 500px) {
+            a {
+                width: 80%;
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
